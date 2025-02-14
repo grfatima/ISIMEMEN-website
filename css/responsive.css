@@ -23,6 +23,10 @@
     width: 60vh;
     font-size: 70px;
   }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -47,6 +51,10 @@
   .hero h1 {
     width: 55vh;
     font-size: 60px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
   }
 }
 
