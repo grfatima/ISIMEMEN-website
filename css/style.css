@@ -81,15 +81,15 @@ nav a {
 }
 
 .hero {
-  height: calc(100vh - 70px);
   position: relative;
   background-size: cover;
+  height: calc(100vh - 70px);
   background: url(../images/background.svg) no-repeat center;
 }
 
 .hero h1 {
+  bottom: 20%;
   width: 90vh;
-  bottom: 100px;
   color: #aee8fb;
   font-size: 100px;
   font-weight: 300;
@@ -100,5 +100,11 @@ nav a {
   padding: 50px 0;
   font-size: 30px;
   line-height: 45px;
-  text-align: center;
+}
+
+.info2 {
+  margin: 20px 0;
+  padding: 50px 0;
+  font-size: 30px;
+  background-color: #f3e9e2;
 }
