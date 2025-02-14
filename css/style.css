@@ -97,14 +97,82 @@ nav a {
 }
 
 .info p {
-  padding: 50px 0;
   font-size: 30px;
+  padding: 100px 0;
   line-height: 45px;
 }
 
 .info2 {
   margin: 20px 0;
-  padding: 50px 0;
   font-size: 30px;
+  padding: 100px 0;
   background-color: #f3e9e2;
+}
+
+.programs h4 {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 100px 0 40px 0;
+  text-transform: uppercase;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cards .card:nth-child(1),
+.cards .card:nth-child(3) {
+  background-color: #aee8fb;
+}
+
+.cards .card:nth-child(2) {
+  background-color: #f3e9e2;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card a {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 30px;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.card a:hover {
+  color: white;
+  background-color: black;
+}
+
+.card img {
+  width: 100%;
 }
