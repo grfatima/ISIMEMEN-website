@@ -176,3 +176,27 @@ nav a {
 .card img {
   width: 100%;
 }
+
+.imageInfo {
+  display: grid;
+  margin: 100px 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.info3 {
+  padding: 90px 20px;
+  border-radius: 20px;
+  align-content: center;
+  justify-items: center;
+  background-color: #f3e9e2;
+}
+
+.image img {
+  width: 100%;
+}
+
+.info3 p {
+  width: 60vh;
+  font-size: 40px;
+  line-height: 50px;
+}
