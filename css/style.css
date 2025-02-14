@@ -73,11 +73,12 @@ nav a {
   visibility: hidden;
   transition: all 0.5s;
   flex-direction: column;
-  background-color: black;
+  background-color: #f3e9e2;
 }
 
 .mobileNav a {
-  color: white;
+  color: black;
+  font-family: Dancing_Script;
 }
 
 .hero {
