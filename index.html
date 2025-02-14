@@ -5,28 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ISIMEMEN</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
-    <div class="navbar">
+    <header>
       <div class="container">
-        <div class="logoAndNav">
+        <nav>
           <div class="logo"><a href="./index.html">ISIMEMEN</a></div>
-          <nav id="nav">
+
+          <div class="links">
             <a href="#">HOME</a>
             <a href="#">ABOUT</a>
             <a href="#"> WORK WITH US</a>
             <a href="#">CLIENT WINS</a>
             <a href="#">EMPLOYERS</a>
-          </nav>
-          <div class="bars" id="bars">
-            <img
-              src="./images/bars-svgrepo-com.svg"
-              id="barsImage"
-              alt="bars"
-            />
           </div>
-        </div>
+
+          <div class="bars" id="bars">
+            <img src="./images/bars-svgrepo-com.svg" alt="bars" />
+          </div>
+        </nav>
       </div>
+    </header>
+
+    <div class="mobileNav" id="mobileNav">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#"> WORK WITH US</a>
+      <a href="#">CLIENT WINS</a>
+      <a href="#">EMPLOYERS</a>
     </div>
+
+    <div class="hero">
+      <div class="container"><h1>Welcome to your reset</h1></div>
+    </div>
+
+    <section class="info">
+      <div class="container">
+        <p>
+          We are a career development & business consultancy for women of color
+          eager to elevate themselves, uncover their life’s purpose, multiply
+          their income, and experience fulfilled lives.
+        </p>
+      </div>
+    </section>
+
+    <section class="info2">
+      <div class="container">
+        <p>
+          We provide purpose-building programs that blend faith, self, and
+          wealth.
+        </p>
+      </div>
+    </section>
+
+    <script>
+      document.getElementById("bars").onclick = function () {
+        document.getElementById("mobileNav").classList.toggle("showMobileNav");
+      };
+    </script>
   </body>
 </html>
