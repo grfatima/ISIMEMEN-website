@@ -27,6 +27,10 @@
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .imageInfo {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -66,5 +70,9 @@
 
   .hero h1 {
     font-size: 50px;
+  }
+
+  .info3 p {
+    padding: 20px;
   }
 }
